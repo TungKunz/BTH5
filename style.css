@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+/*ảnh nền vs màu nên sau cùng*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:1800px;
+    background-image: url(images/bg-top.jpg), url(images/bg-bottom.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom left;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+/*tạo hiệu ứng nhấn*/
+#add-card1{
+    width:240px;
+    height:60px;
+    background-image: url(images/buttons-left.png);
+    background-position: 0px 0px;
+}
+#add-card1:hover{
+    background-position: -248px 0px;
+}
+#add-card2{
+    width:240px;
+    height:60px;
+    background-image: url(images/buttons-left.png);
+    background-position: 0px -66px;
+}
+#add-card2:hover{
+    background-position: -248px -66px;
+}
+.add-card3{
+    width:115px;
+    height:245px;
+    background-image: url(images/long-den.png);
+    position: absolute;
+    background-position: 0px 0px;
+    top: 510px;
+    left:378px;
+
+}
+/*menu trái*/
+.container-top{
+    width: 1100px;
+    height:50px;
+    position: absolute;
+    left: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-trai{
+    width: 420px;
+
+}
+.menu-trai ul li a{
+    text-decoration: none;
+    border-right: 2px solid #6F7179;
+    padding-right: 10px;
+
+}
+.menu-phai ul li a{
+    text-decoration: none;
+    border-left: 2px solid #6F7179;
+    padding-left: 10px;
+
+}
+.menu-phai{
+    width: 420px;
+
+}
+
+.header ul {
+    list-style: none;    
+}
+.header li {
+    display: inline-table;        
+}
+.header li+li {
+    margin-left: 15px;
+}
+.ungdung{
+    width: 990px;
+    height:260px;
+    border: 1px solid #112141;
+    position: absolute;
+    top: 510px;
+    left: 455px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #112141;
+}
+.taigame{
+    width: 245px;
+    padding-left:3px;
+}
+.sukiennoibat{
+    width: 490px;
+}
+.hotline{
+    width: 240px;
+    padding-left: 7px;
+}
+.boxmiddle{
+    width: 990px;
+    height: 780px;
+    position: absolute;
+    top: 780px;
+    left: 455px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.boxtrai{   
+    width: 748px;
+    height: 800px;
+
+}
+.boxphai{
+    width: 745px;
+    height: 325px;
+    border: 7px solid #112141;
+}
+.qua{
+    width: 745px;
+    height: 90px;
+}
+.tintuc{
+    width: 745px;
+    height: 55px;
+
+}
+.menutintuc{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 95px;
+    width: 745px;
+    height: 55px;
+    background-image: url(images/news-header-bg.png);
+}
+.menutintuc ul{
+    list-style: none; 
+}
+.menutintuc li {
+    display: inline-table;        
+}
+.menutintuc li+li {
+    margin-left: 50px;
+}
+.menutintuc ul li a{
+    text-decoration: none; 
+}
+
+.thongbao1{
+    border:10px solid #f2f2f2; 
+    display: flex;
+
+}
+.thongbao1-1{
+    padding-left: 10px;
+}
+.thongbao1-1-1{
+    color: #B70F11;
+    font-size: 1.2em;
+    border-left: 3px solid #B70F11;
+    padding-left: 3px;
+}
+.thongbao1-1-2{
+    color: #8C8C8C;
+    font-size: 0.7em;
+    font-style: italic;
+
+}
+.thongbao1-1-3{
+    color:#696969;
+    font-size: 0.9em;
+
+}
+.thongbao2{
+    border:10px solid #f2f2f2; 
+    display: flex;
+
+}
+.thongbao2-1{
+    padding-left: 10px;
+}
+.thongbao2-1-1{
+    color: #B70F11;
+    font-size: 1.2em;
+    border-left: 3px solid #B70F11;
+    padding-left: 3px;
+
+}
+.thongbao2-1-2{
+    color: #8C8C8C;
+    font-size: 0.7em;
+    font-style: italic;
+}
+.thongbao2-1-3{
+    color:#696969;
+    font-size: 0.9em;
+
+}
+.thongbao3{
+    border:10px solid #f2f2f2; 
+    display: flex;
+
+}
+.thongbao3-1{
+    padding-left: 10px;
+}
+.thongbao3-1-1{
+    color: #B70F11;
+    font-size: 1.2em;
+    border-left: 3px solid #B70F11;
+    padding-left: 3px;
+}
+.thongbao3-1-2{
+    color: #8C8C8C;
+    font-size: 0.7em;
+    font-style: italic;
+}
+.thongbao3-1-3{
+    color:#696969;
+    font-size: 0.9em;
+
+}
+.MENU{
+    border: 4px solid #1F3252;
+    height: 650px;
+    width: 745px;
+}
+
+.logogosu{
+    position: absolute;
+    top: 1680px;
+    left: 455px;
+    display: flex;
+    justify-content: space-between;
+    }
+.box-text{
+    position: absolute;
+    top: 1680px;
+    left: 655px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.box-text ul{
+    list-style: none; 
+}
+.box-text ul li a{
+    text-decoration: none;
+}
+.boxkeo{
+    
+    display: flex;
+    left: 500px;
+    top: 720px;
+    height: 40px;
+    width: 500 px;
+    position: absolute;
+    gap:10px;
+    text-align: center;
+}
+.box1{
+    border: 4px solid #BFBFBF;
+    padding-top: 13px;
+    height: 50px;
+    width: 100px;
+    background-color: #112141;
+}
+.box2{
+    border: 4px solid #BFBFBF;
+    padding-top: 13px;
+    height: 50px;
+    width: 100px;
+    background-color: #112141;
+}
