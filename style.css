@@ -242,8 +242,8 @@ body{
     }
 .box-text{
     position: absolute;
-    top: 1680px;
-    left: 655px;
+    top: 1670px;
+    left: 600px;
     display: flex;
     justify-content: space-between;
     text-align: center;
